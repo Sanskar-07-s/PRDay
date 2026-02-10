@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Promise Day 💌</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Initial Popup -->
+<div class="popup show" id="popup1">
+  <h1>💖 Happy Promise Day! 💖</h1>
+  <p>I have something special for you 🥰</p>
+  <button onclick="startPromises()">Show My Promises</button>
+</div>
+
+<!-- Promises Box -->
+<div class="popup" id="promiseBox">
+  <p id="promiseText"></p>
+  <button onclick="nextPromise()">Yes 🥰</button>
+</div>
+
+<!-- Final Heart Box -->
+<div class="popup" id="finalBox">
+  <h2>💖 All promises made 💖</h2>
+  <p>Thank you for being so special 🥺💗</p>
+  <input type="text" id="replyMsg" placeholder="Send me a reply 💌">
+  <button onclick="sendWhatsApp()">Reply via WhatsApp 💌</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
