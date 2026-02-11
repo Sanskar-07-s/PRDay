@@ -2,7 +2,7 @@
 let promises = [
   "I promise to always respect your choices and your space 💖",
   "I promise to support you in every situation 🥰",
-  "I promis to always stay on your side and with you in every situations",
+  "I promis to always stay on your side and with you in every situations🥺💗",
   "I promise to always tell you the truth 💌",
   "I promise to be honest and transparent with you 💗",
   "I promise to make you smile and keep our time together fun 😍",
@@ -79,4 +79,5 @@ function sendWhatsApp(){
   if(msg.trim()===""){ alert("Please type something!"); return;}
   window.open(`https://wa.me/919209966816?text=${encodeURIComponent(msg)}`, '_blank');
 }
+
 
